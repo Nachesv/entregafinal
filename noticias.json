@@ -1,0 +1,71 @@
+[
+    {
+        "img": "images/consolas.jfif",
+        "titulo": "Guerra de consolas: quien va ganando?",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            
+            {"categoria":"Multiconsola"}
+        ],
+        
+        "id": 1
+    },
+    {
+        "img": "images/descarga.jfif",
+        "titulo": "Probamos las nuevas placas de NVidia",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"PC"}
+        ],
+        "id": 2
+    },
+    {
+        "img": "images/biomutant.jpg",
+        "titulo": "El esperado Biomutant saldra el 25 de Mayo",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"PC"},
+            {"categoria":"Multiconsola"}
+            
+        ],
+        "id": 3
+    }, 
+    {
+        "img": "images/amongus.jfif",
+        "titulo": "Among Us segundo en ventas de Steam",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"PC"}
+        ],
+        "id": 4
+    },
+  
+    {
+        "img": "images/csgo.jfif",
+        "titulo": "Nuevo parche de CSGO: 11.1",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"PC"}
+        ],
+        "id": 5
+    },  
+    {
+        "img": "images/csgo.jfif",
+        "titulo": "Nuevo parche de CSGO: 11.1",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"PC"}
+        ],
+        "id": 6
+    },
+    {
+        "img": "images/demons-souls-remake-2060467.jpg",
+        "titulo": "Demon's Souls 5: Análisis",
+        "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi urna nunc, dignissim quis dictum eget, tincidunt sit amet sem.",
+        "categorias": [
+            {"categoria":"Playstation"}
+        ],
+        "id": 7
+    }
+
+]
