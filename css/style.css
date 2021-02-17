@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+html,body
+{
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px !important;
+    overflow-x: hidden; 
+}
+
 body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: #251010;
@@ -43,22 +53,13 @@ body {
 }
 
 .titulo {
-  font-family: "Kumbh Sans", fantasy;
+  font-family: 'Anton', sans-serif;
 }
 
 .titulo img {
   width: 100px;
 }
 
-.link li {
-  display: inline;
-  overflow: hidden;
-  font-size: 20px;
-  justify-content: space-between;
-}
-.link li a {
-  text-decoration: none;
-}
 
 .tituloTarjeta {
   color: black;
@@ -90,8 +91,12 @@ body {
   /*Internet Explorer*/
 }
 
-.modal {
-  color: black;
+#myModal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
 }
 
 .noticia {
@@ -113,6 +118,7 @@ body {
 
 .titulosmall {
   color: #00031b;
+  background-image:"images/amongus.jfif";
 }
 
 .titulosmall:hover {
@@ -177,7 +183,7 @@ body {
 
   .header-index {
     flex-direction: column;
-    height: 110%;
+    height: 20%;
   }
 
   .link li {
@@ -246,7 +252,7 @@ position: absolute;
 
 .card-img-top {
   width: 100%;
-  height: 5vw;
+  height: 6vw;
   object-fit: cover;
 }
 
@@ -256,13 +262,13 @@ position: absolute;
   object-fit:cover;
   margin: 0px ;
   padding: 0px !important;
-  overflow-x: hidden; 
+  overflow-x:auto; 
   display: block;
 }
 
 .botonTienda{
 position: absolute;
-bottom: 3px;
+bottom: 20px;
 left: 6px;
 }
 
@@ -297,6 +303,20 @@ table {
 #contador-carrito{
       display:none;
       color:antiquewhite;
+}
+ 
+ul {
+  list-style-type: none;
+}
+
+.menuContraible{
+  font-family: 'PT Sans', sans-serif;
+  font-size:xx-large;
+  color: white;
+}
+
+.cabezal-modal img{
+  height: 54vh;
 }
 
 
